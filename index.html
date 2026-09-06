@@ -1,0 +1,3850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Alberto Watch Company</title>
+    
+
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- BOOTSTRAP -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+
+    <!-- BOOTSTRAP ICONS -->
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <!-- MAIN CSS -->
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+                         NAVBAR
+========================================================= -->
+
+<nav class="navbar-custom">
+
+    <div class="nav-container">
+
+
+        <!-- LOGO -->
+
+        <a href="#home"
+           class="brand-logo">
+
+            <div class="crown">
+                ♛
+            </div>
+
+
+            <div class="brand-text">
+
+                <span>
+                    ALBERTO
+                </span>
+
+                <small>
+                    WATCH COMPANY
+                </small>
+
+            </div>
+
+        </a>
+
+
+
+        <!-- MOBILE MENU -->
+
+        <input type="checkbox"
+               id="menu-toggle">
+
+
+        <label for="menu-toggle"
+               class="menu-icon">
+
+            <i class="bi bi-list"></i>
+
+        </label>
+
+
+
+        <!-- NAVIGATION -->
+
+        <ul class="nav-menu">
+
+
+            <!-- HOME -->
+
+            <li>
+
+                <a href="#home"
+                   class="nav-link active">
+
+                    Home
+
+                </a>
+
+            </li>
+
+
+
+            <!-- PRODUCTS -->
+
+            <li class="dropdown-menu-custom">
+
+                <a href="#products"
+                   class="nav-link">
+
+                    Products
+
+                    <i class="bi bi-chevron-down"></i>
+
+                </a>
+
+
+                <div class="dropdown-box">
+
+                    <a href="#products"
+                       data-filter-link="all">
+
+                        All Watches
+
+                    </a>
+
+
+                    <a href="#products"
+                       data-filter-link="luxury">
+
+                        Luxury Watches
+
+                    </a>
+
+
+                    <a href="#products"
+                       data-filter-link="vintage">
+
+                        Vintage Watches
+
+                    </a>
+
+
+                    <a href="#products"
+                       data-filter-link="smart">
+
+                        Smart Watches
+
+                    </a>
+
+
+                    <a href="#products"
+                       data-filter-link="classic">
+
+                        Classic Watches
+
+                    </a>
+
+
+                    <a href="#products"
+                       data-filter-link="mens">
+
+                        Men's Watches
+
+                    </a>
+
+
+                    <a href="#products"
+                       data-filter-link="womens">
+
+                        Women's Watches
+
+                    </a>
+
+                </div>
+
+            </li>
+
+
+
+            <!-- PRICE LIST -->
+
+            <li>
+
+                <a href="#price-list"
+                   class="nav-link">
+
+                    Price List
+
+                </a>
+
+            </li>
+
+
+
+            <!-- TECHNOLOGY -->
+
+            <li>
+
+                <a href="#technology"
+                   class="nav-link">
+
+                    Technology
+
+                </a>
+
+            </li>
+
+
+
+            <!-- STORE -->
+
+            <li>
+
+                <a href="#store"
+                   class="nav-link">
+
+                    Store Locator
+
+                </a>
+
+            </li>
+
+
+
+            <!-- SUPPORT -->
+
+            <li>
+
+                <a href="#support"
+                   class="nav-link">
+
+                    Support
+
+                </a>
+
+            </li>
+
+
+
+            <!-- GALLERY -->
+
+            <li>
+
+                <a href="#gallery"
+                   class="nav-link">
+
+                    Gallery
+
+                </a>
+
+            </li>
+
+
+
+            <!-- ABOUT -->
+
+            <li>
+
+                <a href="#about"
+                   class="nav-link">
+
+                    About Us
+
+                </a>
+
+            </li>
+
+
+
+            <!-- CONTACT -->
+
+            <li>
+
+                <a href="#contact"
+                   class="nav-link">
+
+                    Contact Us
+
+                </a>
+
+            </li>
+
+
+
+            <!-- SITE MAP -->
+
+            <li>
+
+                <a href="#site-map"
+                   class="nav-link">
+
+                    Site Map
+
+                </a>
+
+            </li>
+
+
+        </ul>
+
+
+
+        <!-- VISITOR COUNTER -->
+
+        <div class="nav-right">
+
+            <div class="visitor-counter">
+
+                <i class="fa-solid fa-users"></i>
+
+                <span>
+                    Visitors
+                </span>
+
+                <strong id="visitorCount">
+                    0
+                </strong>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</nav>
+
+
+
+<!-- =========================================================
+                           HOME
+========================================================= -->
+
+<section id="home"
+         class="hero-section section-anchor">
+
+
+    <div class="hero-slider"
+         id="heroSlider">
+
+
+        <!-- SLIDE 1 -->
+
+        <div class="hero-slide active-slide"
+             style="background-image:url('https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1800&q=85')">
+
+
+            <div class="hero-overlay"></div>
+
+
+            <div class="hero-content">
+
+
+                <p class="hero-small">
+                    ALBERTO WATCH COMPANY
+                </p>
+
+
+                <h1>
+                    Timeless Beauty
+                    <br>
+                    Engineered for Excellence
+                </h1>
+
+
+                <p class="hero-description">
+                    Discover the world of luxury timepieces
+                    with Alberto Watch Company.
+                </p>
+
+
+                <a href="#products"
+                   class="gold-btn">
+
+                    Explore Products
+
+                    <i class="fa-solid fa-angle-right"></i>
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- SLIDE 2 -->
+
+        <div class="hero-slide"
+             style="background-image:url('https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1800&q=85')">
+
+
+            <div class="hero-overlay"></div>
+
+
+            <div class="hero-content">
+
+
+                <p class="hero-small">
+                    PRECISION &amp; CRAFTSMANSHIP
+                </p>
+
+
+                <h1>
+                    Designed for
+                    <br>
+                    Timeless Moments
+                </h1>
+
+
+                <p class="hero-description">
+                    Elegant design and exceptional craftsmanship
+                    made for every occasion.
+                </p>
+
+
+                <a href="#products"
+                   class="gold-btn">
+
+                    View Collection
+
+                    <i class="fa-solid fa-angle-right"></i>
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- SLIDE 3 -->
+
+        <div class="hero-slide"
+             style="background-image:url('https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=1800&q=85')">
+
+
+            <div class="hero-overlay"></div>
+
+
+            <div class="hero-content">
+
+
+                <p class="hero-small">
+                    INNOVATION MEETS ELEGANCE
+                </p>
+
+
+                <h1>
+                    Technology
+                    <br>
+                    Meets Luxury
+                </h1>
+
+
+                <p class="hero-description">
+                    Modern watch technology combined with
+                    sophisticated luxury design.
+                </p>
+
+
+                <a href="#technology"
+                   class="gold-btn">
+
+                    Explore Technology
+
+                    <i class="fa-solid fa-angle-right"></i>
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- LEFT ARROW -->
+
+        <button class="hero-arrow hero-left"
+                id="heroPrev"
+                type="button">
+
+            <i class="fa-solid fa-angle-left"></i>
+
+        </button>
+
+
+
+        <!-- RIGHT ARROW -->
+
+        <button class="hero-arrow hero-right"
+                id="heroNext"
+                type="button">
+
+            <i class="fa-solid fa-angle-right"></i>
+
+        </button>
+
+
+
+        <!-- DOTS -->
+
+        <div class="hero-dots">
+
+            <button class="hero-dot active-dot"
+                    data-slide="0"
+                    type="button">
+            </button>
+
+
+            <button class="hero-dot"
+                    data-slide="1"
+                    type="button">
+            </button>
+
+
+            <button class="hero-dot"
+                    data-slide="2"
+                    type="button">
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                  CATEGORY STRIP
+========================================================= -->
+
+<section class="category-strip">
+
+    <div class="container">
+
+        <div class="category-row">
+
+
+            <a href="#products"
+               class="category-box"
+               data-filter-link="luxury">
+
+                <i class="fa-regular fa-clock"></i>
+
+                <span>
+                    Luxury Watches
+                </span>
+
+            </a>
+
+
+
+            <a href="#products"
+               class="category-box"
+               data-filter-link="vintage">
+
+                <i class="fa-solid fa-stopwatch"></i>
+
+                <span>
+                    Vintage Watches
+                </span>
+
+            </a>
+
+
+
+            <a href="#products"
+               class="category-box"
+               data-filter-link="smart">
+
+                <i class="fa-solid fa-microchip"></i>
+
+                <span>
+                    Smart Watches
+                </span>
+
+            </a>
+
+
+
+            <a href="#products"
+               class="category-box"
+               data-filter-link="classic">
+
+                <i class="fa-regular fa-gem"></i>
+
+                <span>
+                    Classic Watches
+                </span>
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                    TRUSTED BRANDS
+========================================================= -->
+
+<section class="trusted-brands reveal">
+
+    <div class="container">
+
+
+        <div class="trusted-heading">
+
+            <span>
+                OUR COLLECTION
+            </span>
+
+
+            <h2>
+                Our Trusted Brands
+            </h2>
+
+        </div>
+
+
+        <div class="brand-list">
+
+
+            <div class="brand-name">
+                ROLEX
+            </div>
+
+
+            <div class="brand-name">
+
+                <i class="fa-regular fa-clock"></i>
+
+                MICHAEL KORS
+
+            </div>
+
+
+            <div class="brand-name">
+                CITIZEN
+            </div>
+
+
+            <div class="brand-name">
+                BULOVA
+            </div>
+
+
+            <div class="brand-name">
+                SEIKO
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                     INTRODUCTION
+========================================================= -->
+
+<section class="intro-section reveal section-anchor">
+
+    <div class="container narrow-container">
+
+
+        <div class="section-heading">
+
+            <span>
+                WELCOME TO ALBERTO
+            </span>
+
+
+            <h2>
+                Timeless Elegance
+            </h2>
+
+
+            <div class="gold-line"></div>
+
+        </div>
+
+
+        <p>
+            Alberto Watch Company brings together
+            timeless craftsmanship, sophisticated design
+            and modern watchmaking technology. Every
+            timepiece is carefully selected for those who
+            appreciate precision, elegance and exceptional quality.
+        </p>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                       PRODUCTS
+========================================================= -->
+
+<section id="products"
+         class="products-section section-anchor">
+
+
+    <div class="container">
+
+
+        <div class="section-heading dark-heading reveal">
+
+            <span>
+                OUR COLLECTION
+            </span>
+
+
+            <h2>
+                Our Watch Collection
+            </h2>
+
+
+            <p>
+                Timeless Elegance. Exceptional Quality.
+            </p>
+
+        </div>
+
+
+
+        <!-- FILTERS -->
+
+        <div class="product-filters reveal">
+
+
+            <button class="filter-btn active-filter"
+                    data-category="all">
+
+                All
+
+            </button>
+
+
+            <button class="filter-btn"
+                    data-category="luxury">
+
+                Luxury
+
+            </button>
+
+
+            <button class="filter-btn"
+                    data-category="vintage">
+
+                Vintage
+
+            </button>
+
+
+            <button class="filter-btn"
+                    data-category="smart">
+
+                Smart Watches
+
+            </button>
+
+
+            <button class="filter-btn"
+                    data-category="classic">
+
+                Classic
+
+            </button>
+
+
+            <button class="filter-btn"
+                    data-category="mens">
+
+                Men's
+
+            </button>
+
+
+            <button class="filter-btn"
+                    data-category="womens">
+
+                Women's
+
+            </button>
+
+
+        </div>
+
+
+
+        <!-- PRODUCT GRID -->
+
+        <div class="row g-4"
+             id="productGrid">
+
+
+            <!-- =================================================
+                            PRODUCT 1
+            ================================================== -->
+
+            <div class="col-xl-4 col-md-6 product-item reveal"
+                 data-category="luxury mens"
+                 data-name="Rolex Submariner"
+                 data-brand="Rolex"
+                 data-type="Luxury"
+                 data-movement="Automatic"
+                 data-water="300m"
+                 data-material="Stainless Steel"
+                 data-price="$8,500"
+                 data-image="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1000&q=85"
+                 data-description="The Rolex Submariner is an iconic luxury timepiece known for precision, durability and timeless design.">
+
+
+                <div class="product-card">
+
+
+                    <div class="product-image">
+
+                        <img src="https://watchclubpakistan.pk/cdn/shop/files/evoindia_2021-04_66688d38-e131-40b2-b759-d3740a0ed6f3_Rolex_Hero.webp?v=1671568341&width=1500"
+                             alt="Rolex Submariner">
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <h3>
+                            Rolex
+                        </h3>
+
+
+                        <span>
+                            Luxury
+                        </span>
+
+
+                        <p>
+                            Rolex Submariner
+                        </p>
+
+
+                        <strong>
+                            $8,500
+                        </strong>
+
+
+                        <button class="view-details-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#productModal">
+
+                            View Details
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- PRODUCT 2 -->
+
+            <div class="col-xl-4 col-md-6 product-item reveal"
+                 data-category="luxury womens"
+                 data-name="Michael Kors Lexington"
+                 data-brand="Michael Kors"
+                 data-type="Fashion"
+                 data-movement="Quartz"
+                 data-water="50m"
+                 data-material="Stainless Steel"
+                 data-price="$300"
+                 data-image="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1000&q=85"
+                 data-description="A sophisticated Michael Kors fashion timepiece combining elegant styling with reliable quartz movement.">
+
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1000&q=85"
+                             alt="Michael Kors Lexington">
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <h3>
+                            Michael Kors
+                        </h3>
+
+
+                        <span>
+                            Fashion
+                        </span>
+
+
+                        <p>
+                            Lexington
+                        </p>
+
+
+                        <strong>
+                            $300
+                        </strong>
+
+
+                        <button class="view-details-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#productModal">
+
+                            View Details
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- PRODUCT 3 -->
+
+            <div class="col-xl-4 col-md-6 product-item reveal"
+                 data-category="classic"
+                 data-name="Citizen Eco-Drive"
+                 data-brand="Citizen"
+                 data-type="Classic"
+                 data-movement="Eco-Drive"
+                 data-water="100m"
+                 data-material="Stainless Steel"
+                 data-price="$450"
+                 data-image="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=1000&q=85"
+                 data-description="Citizen Eco-Drive uses light as an energy source for dependable and convenient everyday timekeeping.">
+
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=1000&q=85"
+                             alt="Citizen Eco Drive">
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <h3>
+                            Citizen
+                        </h3>
+
+
+                        <span>
+                            Classic
+                        </span>
+
+
+                        <p>
+                            Eco-Drive
+                        </p>
+
+
+                        <strong>
+                            $450
+                        </strong>
+
+
+                        <button class="view-details-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#productModal">
+
+                            View Details
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- PRODUCT 4 -->
+
+            <div class="col-xl-4 col-md-6 product-item reveal"
+                 data-category="classic luxury mens"
+                 data-name="Bulova Classic Chronograph"
+                 data-brand="Bulova"
+                 data-type="Classic"
+                 data-movement="Quartz"
+                 data-water="100m"
+                 data-material="Stainless Steel"
+                 data-price="$550"
+                 data-image="https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=1000&q=85"
+                 data-description="Bulova Classic Chronograph combines refined styling, dependable performance and elegant finishing.">
+
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=1000&q=85"
+                             alt="Bulova Classic Chronograph">
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <h3>
+                            Bulova
+                        </h3>
+
+
+                        <span>
+                            Classic
+                        </span>
+
+
+                        <p>
+                            Classic Chronograph
+                        </p>
+
+
+                        <strong>
+                            $550
+                        </strong>
+
+
+                        <button class="view-details-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#productModal">
+
+                            View Details
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- PRODUCT 5 -->
+
+            <div class="col-xl-4 col-md-6 product-item reveal"
+                 data-category="smart"
+                 data-name="Garmin Smart Timepiece"
+                 data-brand="Garmin"
+                 data-type="Smart Watch"
+                 data-movement="Digital"
+                 data-water="50m"
+                 data-material="Silicone &amp; Aluminum"
+                 data-price="$299"
+                 data-image="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=1000&q=85"
+                 data-description="A modern smartwatch offering digital features, connectivity, fitness support and everyday convenience.">
+
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=1000&q=85"
+                             alt="Garmin Smart Watch">
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <h3>
+                            Garmin
+                        </h3>
+
+
+                        <span>
+                            Smart Watch
+                        </span>
+
+
+                        <p>
+                            Modern Smart Timepiece
+                        </p>
+
+
+                        <strong>
+                            $299
+                        </strong>
+
+
+                        <button class="view-details-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#productModal">
+
+                            View Details
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- PRODUCT 6 -->
+
+            <div class="col-xl-4 col-md-6 product-item reveal"
+                 data-category="classic mens"
+                 data-name="Seiko Classic Automatic"
+                 data-brand="Seiko"
+                 data-type="Classic"
+                 data-movement="Automatic"
+                 data-water="100m"
+                 data-material="Stainless Steel"
+                 data-price="$420"
+                 data-image="https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&w=1000&q=85"
+                 data-description="A traditional Seiko timepiece with refined styling and dependable automatic movement.">
+
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&w=1000&q=85"
+                             alt="Seiko Classic">
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <h3>
+                            Seiko
+                        </h3>
+
+
+                        <span>
+                            Classic
+                        </span>
+
+
+                        <p>
+                            Classic Automatic
+                        </p>
+
+
+                        <strong>
+                            $420
+                        </strong>
+
+
+                        <button class="view-details-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#productModal">
+
+                            View Details
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- PRODUCT 7 -->
+
+            <div class="col-xl-4 col-md-6 product-item reveal"
+                 data-category="vintage mens"
+                 data-name="Alberto Heritage"
+                 data-brand="Alberto"
+                 data-type="Vintage"
+                 data-movement="Mechanical"
+                 data-water="30m"
+                 data-material="Leather &amp; Stainless Steel"
+                 data-price="$680"
+                 data-image="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1000&q=85"
+                 data-description="A vintage-inspired watch with traditional styling and classic mechanical craftsmanship.">
+
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1000&q=85"
+                             alt="Alberto Heritage">
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <h3>
+                            Alberto Heritage
+                        </h3>
+
+
+                        <span>
+                            Vintage
+                        </span>
+
+
+                        <p>
+                            Heritage Collection
+                        </p>
+
+
+                        <strong>
+                            $680
+                        </strong>
+
+
+                        <button class="view-details-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#productModal">
+
+                            View Details
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- PRODUCT 8 -->
+
+            <div class="col-xl-4 col-md-6 product-item reveal"
+                 data-category="vintage womens"
+                 data-name="Alberto Elegant Vintage"
+                 data-brand="Alberto"
+                 data-type="Vintage"
+                 data-movement="Quartz"
+                 data-water="30m"
+                 data-material="Stainless Steel"
+                 data-price="$390"
+                 data-image="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1000&q=85"
+                 data-description="Elegant vintage-inspired styling designed for a sophisticated and timeless look.">
+
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbGnwD33xPtZweGoQj-Ci6612kSvH_1HUg8LCfvZqI6w&s=10"
+                             alt="Alberto Vintage Lady">
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <h3>
+                            Alberto
+                        </h3>
+
+
+                        <span>
+                            Vintage
+                        </span>
+
+
+                        <p>
+                            Elegant Vintage Lady
+                        </p>
+
+
+                        <strong>
+                            $390
+                        </strong>
+
+
+                        <button class="view-details-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#productModal">
+
+                            View Details
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- PRODUCT 9 -->
+
+            <div class="col-xl-4 col-md-6 product-item reveal"
+                 data-category="smart womens"
+                 data-name="Alberto Smart Elegance"
+                 data-brand="Alberto"
+                 data-type="Smart Watch"
+                 data-movement="Digital"
+                 data-water="50m"
+                 data-material="Ceramic &amp; Stainless Steel"
+                 data-price="$399"
+                 data-image="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=85"
+                 data-description="Smart functionality combined with a sophisticated luxury-inspired design for modern lifestyles.">
+
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=85"
+                             alt="Alberto Smart Elegance">
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <h3>
+                            Alberto
+                        </h3>
+
+
+                        <span>
+                            Smart Watch
+                        </span>
+
+
+                        <p>
+                            Smart Elegance
+                        </p>
+
+
+                        <strong>
+                            $399
+                        </strong>
+
+
+                        <button class="view-details-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#productModal">
+
+                            View Details
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                    PRODUCT MODAL
+========================================================= -->
+
+<div class="modal fade"
+     id="productModal"
+     tabindex="-1"
+     aria-hidden="true">
+
+
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+
+
+        <div class="modal-content product-modal">
+
+
+            <button type="button"
+                    class="modal-close"
+                    data-bs-dismiss="modal">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+
+            <div class="product-popup">
+
+
+                <div class="popup-image">
+
+                    <img id="modalImage"
+                         src=""
+                         alt="Selected Watch">
+
+                </div>
+
+
+                <div class="popup-details">
+
+
+                    <h2 id="modalName"></h2>
+
+
+                    <span id="modalType"
+                          class="popup-type">
+                    </span>
+
+
+                    <p id="modalDescription"
+                       class="popup-description">
+                    </p>
+
+
+                    <div class="popup-row">
+
+                        <span>
+                            Brand:
+                        </span>
+
+                        <strong id="modalBrand">
+                        </strong>
+
+                    </div>
+
+
+                    <div class="popup-row">
+
+                        <span>
+                            Category:
+                        </span>
+
+                        <strong id="modalCategory">
+                        </strong>
+
+                    </div>
+
+
+                    <div class="popup-row">
+
+                        <span>
+                            Movement:
+                        </span>
+
+                        <strong id="modalMovement">
+                        </strong>
+
+                    </div>
+
+
+                    <div class="popup-row">
+
+                        <span>
+                            Water Resistance:
+                        </span>
+
+                        <strong id="modalWater">
+                        </strong>
+
+                    </div>
+
+
+                    <div class="popup-row">
+
+                        <span>
+                            Material:
+                        </span>
+
+                        <strong id="modalMaterial">
+                        </strong>
+
+                    </div>
+
+
+                    <div class="popup-price"
+                         id="modalPrice">
+                    </div>
+
+
+                    <button type="button"
+                            class="add-cart-btn"
+                            data-bs-dismiss="modal">
+
+                        Close
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+                     PRICE LIST
+========================================================= -->
+
+<section id="price-list"
+         class="price-section section-anchor">
+
+
+    <div class="container">
+
+
+        <div class="section-heading dark-heading reveal">
+
+            <span>
+                OUR PRICES
+            </span>
+
+
+            <h2>
+                Watch Price List
+            </h2>
+
+
+            <p>
+                Find Your Ideal Timepiece
+            </p>
+
+        </div>
+
+
+
+        <div class="table-wrap reveal">
+
+
+            <table class="price-table">
+
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Watch Name
+                        </th>
+
+                        <th>
+                            Brand
+                        </th>
+
+                        <th>
+                            Category
+                        </th>
+
+                        <th>
+                            Price
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+
+                    <tr>
+                        <td>Rolex Submariner</td>
+                        <td>Rolex</td>
+                        <td>Luxury</td>
+                        <td>$8,500</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Michael Kors Parker</td>
+                        <td>Michael Kors</td>
+                        <td>Fashion</td>
+                        <td>$350</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Citizen Eco-Drive</td>
+                        <td>Citizen</td>
+                        <td>Classic</td>
+                        <td>$450</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Bulova Classic</td>
+                        <td>Bulova</td>
+                        <td>Classic</td>
+                        <td>$550</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Garmin Forerunner</td>
+                        <td>Garmin</td>
+                        <td>Smart</td>
+                        <td>$299</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Seiko Presage</td>
+                        <td>Seiko</td>
+                        <td>Classic</td>
+                        <td>$420</td>
+                    </tr>
+
+
+                </tbody>
+
+
+            </table>
+
+
+        </div>
+
+
+        <div class="price-download reveal">
+
+            <a class="gold-btn"
+               href="data:text/csv;charset=utf-8,Watch%20Name%2CBrand%2CCategory%2CPrice%0ARolex%20Submariner%2CRolex%2CLuxury%2C%248500%0AMichael%20Kors%20Parker%2CMichael%20Kors%2CFashion%2C%24350%0ACitizen%20Eco-Drive%2CCitizen%2CClassic%2C%24450%0ABulova%20Classic%2CBulova%2CClassic%2C%24550%0AGarmin%20Forerunner%2CGarmin%2CSmart%2C%24299%0ASeiko%20Presage%2CSeiko%2CClassic%2C%24420"
+               download="alberto-watch-price-list.csv">
+                Download Price List
+                <i class="fa-solid fa-download"></i>
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                      TECHNOLOGY
+========================================================= -->
+
+<section id="technology"
+         class="technology-section section-anchor">
+
+
+    <div class="container">
+
+
+        <div class="section-heading light-heading reveal">
+
+            <span>
+                PRECISION ENGINEERING
+            </span>
+
+
+            <h2>
+                Watch Technology
+            </h2>
+
+
+            <p>
+                Innovation Meets Precision
+            </p>
+
+        </div>
+
+
+
+        <div class="row g-4">
+
+
+            <div class="col-lg-3 col-md-6 reveal">
+
+                <div class="technology-card">
+
+
+                    <div class="technology-image">
+
+                        <img src="https://watchclubpakistan.pk/cdn/shop/files/evoindia_2021-04_66688d38-e131-40b2-b759-d3740a0ed6f3_Rolex_Hero.webp?v=1671568341&width=1500"
+                             alt="Automatic Movement">
+
+                    </div>
+
+
+                    <i class="fa-solid fa-gears"></i>
+
+
+                    <h3>
+                        Automatic Movement
+                    </h3>
+
+
+                    <p>
+                        Mechanical automatic watches are powered
+                        by the natural movement of the wrist.
+                    </p>
+
+
+                    <a href="#technology"
+                       class="small-gold-btn">
+
+                        Learn More
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 reveal">
+
+                <div class="technology-card">
+
+
+                    <div class="technology-image">
+
+                        <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=800&q=85"
+                             alt="Quartz Technology">
+
+                    </div>
+
+
+                    <i class="fa-solid fa-bolt"></i>
+
+
+                    <h3>
+                        Quartz Technology
+                    </h3>
+
+
+                    <p>
+                        Battery-powered quartz movement provides
+                        accurate and reliable timekeeping.
+                    </p>
+
+
+                    <a href="#technology"
+                       class="small-gold-btn">
+
+                        Learn More
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 reveal">
+
+                <div class="technology-card">
+
+
+                    <div class="technology-image">
+
+                        <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=800&q=85"
+                             alt="Eco Drive Technology">
+
+                    </div>
+
+
+                    <i class="fa-regular fa-sun"></i>
+
+
+                    <h3>
+                        Eco-Drive Technology
+                    </h3>
+
+
+                    <p>
+                        Light-powered watch technology designed
+                        for convenient and sustainable use.
+                    </p>
+
+
+                    <a href="#technology"
+                       class="small-gold-btn">
+
+                        Learn More
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 reveal">
+
+                <div class="technology-card">
+
+
+                    <div class="technology-image">
+
+                        <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=85"
+                             alt="Smart Watch Technology">
+
+                    </div>
+
+
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+
+
+                    <h3>
+                        Smart Watch Technology
+                    </h3>
+
+
+                    <p>
+                        Modern digital features, connectivity
+                        and smart convenience for everyday life.
+                    </p>
+
+
+                    <a href="#technology"
+                       class="small-gold-btn">
+
+                        Learn More
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                    STORE LOCATOR
+========================================================= -->
+
+<section id="store"
+         class="store-section section-anchor">
+
+
+    <div class="container">
+
+
+        <div class="section-heading dark-heading reveal">
+
+            <span>
+                FIND US
+            </span>
+
+
+            <h2>
+                Store Locator
+            </h2>
+
+
+            <p>
+                Find Your Nearest Alberto Store
+            </p>
+
+        </div>
+
+
+
+        <div class="store-tabs reveal">
+
+
+            <button class="store-tab active-store-tab"
+                    data-store-type="all">
+
+                All Stores
+
+            </button>
+
+
+            <button class="store-tab"
+                    data-store-type="luxury">
+
+                Luxury Stores
+
+            </button>
+
+
+            <button class="store-tab"
+                    data-store-type="service">
+
+                Service Centers
+
+            </button>
+
+
+            <button class="store-tab"
+                    data-store-type="boutique">
+
+                Official Boutiques
+
+            </button>
+
+
+        </div>
+
+
+
+        <div class="store-layout reveal">
+
+
+            <div class="store-list-panel">
+
+
+                <div class="store-panel-heading">
+
+
+                    <h3>
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        Nearest Stores
+
+                    </h3>
+
+
+                    <span>
+                        View All
+                    </span>
+
+
+                </div>
+
+
+
+                <div class="store-search">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+
+                    <input id="storeSearch"
+                           type="text"
+                           placeholder="Search your city...">
+
+                </div>
+
+
+
+                <div id="storeList">
+
+
+                    <div class="store-item active-store-item"
+                         data-store-type="luxury"
+                         data-city="karachi">
+
+
+                        <div class="store-icon">
+
+                            <i class="fa-solid fa-store"></i>
+
+                        </div>
+
+
+                        <div class="store-info">
+
+                            <h4>
+                                Alberto Flagship Store – Karachi
+                            </h4>
+
+
+                            <p>
+                                Clifton Road, Karachi, Pakistan
+                            </p>
+
+
+                            <p>
+                                +92 300 1234567
+                                &nbsp;|&nbsp;
+                                10:00 AM – 8:00 PM
+                            </p>
+
+                        </div>
+
+
+                        <span class="store-arrow">
+                            ›
+                        </span>
+
+
+                    </div>
+
+
+
+                    <div class="store-item"
+                         data-store-type="luxury"
+                         data-city="lahore">
+
+
+                        <div class="store-icon">
+
+                            <i class="fa-solid fa-store"></i>
+
+                        </div>
+
+
+                        <div class="store-info">
+
+                            <h4>
+                                Alberto Luxury Store – Lahore
+                            </h4>
+
+
+                            <p>
+                                Gulberg, Lahore, Pakistan
+                            </p>
+
+
+                            <p>
+                                +92 300 7654321
+                                &nbsp;|&nbsp;
+                                10:00 AM – 8:00 PM
+                            </p>
+
+                        </div>
+
+
+                        <span class="store-arrow">
+                            ›
+                        </span>
+
+
+                    </div>
+
+
+
+                    <div class="store-item"
+                         data-store-type="boutique"
+                         data-city="islamabad">
+
+
+                        <div class="store-icon">
+
+                            <i class="fa-solid fa-store"></i>
+
+                        </div>
+
+
+                        <div class="store-info">
+
+                            <h4>
+                                Alberto Boutique – Islamabad
+                            </h4>
+
+
+                            <p>
+                                Blue Area, Islamabad, Pakistan
+                            </p>
+
+
+                            <p>
+                                +92 300 9876543
+                                &nbsp;|&nbsp;
+                                10:00 AM – 8:00 PM
+                            </p>
+
+                        </div>
+
+
+                        <span class="store-arrow">
+                            ›
+                        </span>
+
+
+                    </div>
+
+
+
+                    <div class="store-item"
+                         data-store-type="service"
+                         data-city="faisalabad">
+
+
+                        <div class="store-icon">
+
+                            <i class="fa-solid fa-store"></i>
+
+                        </div>
+
+
+                        <div class="store-info">
+
+                            <h4>
+                                Alberto Service Center – Faisalabad
+                            </h4>
+
+
+                            <p>
+                                Jaranwala Road, Faisalabad, Pakistan
+                            </p>
+
+
+                            <p>
+                                +92 301 1122334
+                                &nbsp;|&nbsp;
+                                10:00 AM – 8:00 PM
+                            </p>
+
+                        </div>
+
+
+                        <span class="store-arrow">
+                            ›
+                        </span>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- SUPPLIED MAP IMAGE -->
+
+            <div class="map-area">
+
+
+                <!-- SEARCH BOX -->
+
+                <div class="map-search">
+
+                    <i class="bi bi-search"></i>
+
+                    <input type="text" placeholder="Search your city...">
+
+                </div>
+
+
+
+
+
+                <div class="map-background">
+
+
+    
+
+                    <div class="road road-one"></div>
+
+                    <div class="road road-two"></div>
+
+                    <div class="road road-three"></div>
+
+                    <div class="road road-four"></div>
+
+                    <div class="road road-five"></div>
+
+
+
+                    <div class="park park-one"></div>
+
+                    <div class="park park-two"></div>
+
+                    <div class="park park-three"></div>
+
+
+
+        
+
+                    <div class="map-pin pin-one">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                    </div>
+
+
+                    <div class="map-pin pin-two">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                    </div>
+
+
+                    <div class="map-pin pin-three">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                    </div>
+
+
+                    <div class="map-pin pin-four">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                    </div>
+
+
+                    <div class="map-pin pin-five">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                    </div>
+
+
+                    <div class="map-pin pin-six">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                    </div>
+
+
+
+
+                    <div class="selected-pin">
+
+                        <div class="selected-pin-icon">
+
+                            <i class="bi bi-shop"></i>
+
+                        </div>
+
+
+                        <div class="selected-pin-content">
+
+                            <h3>
+                                Alberto Flagship Store – Karachi
+                            </h3>
+
+                            <p>
+                                Clifton Road, Karachi, Pakistan
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="map-controls">
+
+                        <button>
+                            +
+                        </button>
+
+                        <button>
+                            −
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                         SUPPORT
+========================================================= -->
+
+<section id="support"
+         class="support-section section-anchor">
+
+
+    <div class="container">
+
+
+        <div class="section-heading dark-heading reveal">
+
+            <span>
+                ALBERTO CARE
+            </span>
+
+
+            <h2>
+                Customer Support
+            </h2>
+
+
+            <p>
+                We're Here to Help
+            </p>
+
+        </div>
+
+
+
+        <div class="row g-4 support-grid">
+
+
+            <div class="col-lg-3 col-md-6 reveal">
+
+                <div class="support-card">
+
+
+                    <div class="support-icon">
+
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                    </div>
+
+
+                    <h3>
+                        Watch Repair
+                    </h3>
+
+
+                    <p>
+                        Professional repair services
+                        for all brands.
+                    </p>
+
+
+                    <a href="#contact"
+                       class="gold-btn small-btn">
+
+                        Learn More
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 reveal">
+
+                <div class="support-card">
+
+
+                    <div class="support-icon">
+
+                        <i class="fa-regular fa-gem"></i>
+
+                    </div>
+
+
+                    <h3>
+                        Watch Appraisal
+                    </h3>
+
+
+                    <p>
+                        Professional valuation
+                        services.
+                    </p>
+
+
+                    <a href="#contact"
+                       class="gold-btn small-btn">
+
+                        Learn More
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 reveal">
+
+                <div class="support-card">
+
+
+                    <div class="support-icon">
+
+                        <i class="fa-solid fa-gear"></i>
+
+                    </div>
+
+
+                    <h3>
+                        Maintenance
+                    </h3>
+
+
+                    <p>
+                        Keep your watch in
+                        perfect condition.
+                    </p>
+
+
+                    <a href="#contact"
+                       class="gold-btn small-btn">
+
+                        Learn More
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 reveal">
+
+                <div class="support-card">
+
+
+                    <div class="support-icon">
+
+                        <i class="fa-regular fa-circle-check"></i>
+
+                    </div>
+
+
+                    <h3>
+                        Warranty
+                    </h3>
+
+
+                    <p>
+                        Authentic watches with
+                        trusted warranty.
+                    </p>
+
+
+                    <a href="#contact"
+                       class="gold-btn small-btn">
+
+                        Learn More
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- NEED ASSISTANCE -->
+
+        <div class="assistance-section reveal">
+
+
+            <div class="assistance-image">
+
+                <img src="https://www.mensjournal.com/.image/NDI6MDAwMDAwMDAxMzMyNTg3/tudor-northflag-watch-main.png?profile=w2560&ar=16-9"
+                     alt="Luxury Watch">
+
+            </div>
+
+
+            <div class="assistance-content">
+
+                <span>
+                    ALBERTO SUPPORT
+                </span>
+
+
+                <h2>
+                    Need Assistance?
+                </h2>
+
+
+                <p>
+                    Our team is ready to help you with
+                    repair, appraisal, maintenance, warranty
+                    and customer support.
+                </p>
+
+
+                <a href="#contact"
+                   class="gold-btn small-btn">
+
+                    Contact Support
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                         GALLERY
+========================================================= -->
+
+<section id="gallery"
+         class="gallery-section section-anchor">
+
+
+    <div class="container">
+
+
+        <div class="section-heading dark-heading reveal">
+
+            <span>
+                OUR VISUAL COLLECTION
+            </span>
+
+
+            <h2>
+                Watch Gallery
+            </h2>
+
+
+            <p>
+                A Glimpse of Timeless Elegance
+            </p>
+
+        </div>
+
+
+
+        <div class="gallery-filters reveal">
+
+
+            <button class="gallery-filter active-gallery-filter"
+                    data-gallery-category="all">
+
+                All
+
+            </button>
+
+
+            <button class="gallery-filter"
+                    data-gallery-category="luxury">
+
+                Luxury
+
+            </button>
+
+
+            <button class="gallery-filter"
+                    data-gallery-category="vintage">
+
+                Vintage
+
+            </button>
+
+
+            <button class="gallery-filter"
+                    data-gallery-category="smart">
+
+                Smart
+
+            </button>
+
+
+            <button class="gallery-filter"
+                    data-gallery-category="classic">
+
+                Classic
+
+            </button>
+
+
+        </div>
+
+
+
+        <div class="row g-3 gallery-grid">
+
+
+            <div class="col-lg-4 col-md-6 gallery-item reveal"
+                 data-gallery="luxury">
+
+
+                <div class="gallery-card">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg2olKhm2fUlatDC0RpJZHarbDBpnzNUYQbSlDU3fmcQ&s"
+                         alt="Luxury Watch"
+                         data-gallery-image
+                         data-gallery-title="Luxury Collection">
+
+
+                    <div class="gallery-overlay">
+
+                        Luxury
+
+                        <i class="fa-solid fa-expand"></i>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 gallery-item reveal"
+                 data-gallery="vintage">
+
+
+                <div class="gallery-card">
+
+                    <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=900&q=85"
+                         alt="Vintage Watch"
+                         data-gallery-image
+                         data-gallery-title="Vintage Collection">
+
+
+                    <div class="gallery-overlay">
+
+                        Vintage
+
+                        <i class="fa-solid fa-expand"></i>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 gallery-item reveal"
+                 data-gallery="smart">
+
+
+                <div class="gallery-card">
+
+                    <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=900&q=85"
+                         alt="Smart Watch"
+                         data-gallery-image
+                         data-gallery-title="Smart Collection">
+
+
+                    <div class="gallery-overlay">
+
+                        Smart
+
+                        <i class="fa-solid fa-expand"></i>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 gallery-item reveal"
+                 data-gallery="classic">
+
+
+                <div class="gallery-card">
+
+                    <img src="https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&w=900&q=85"
+                         alt="Classic Watch"
+                         data-gallery-image
+                         data-gallery-title="Classic Collection">
+
+
+                    <div class="gallery-overlay">
+
+                        Classic
+
+                        <i class="fa-solid fa-expand"></i>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 gallery-item reveal"
+                 data-gallery="luxury">
+
+
+                <div class="gallery-card">
+
+                    <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=900&q=85"
+                         alt="Bulova Watch"
+                         data-gallery-image
+                         data-gallery-title="Bulova Detail">
+
+
+                    <div class="gallery-overlay">
+
+                        Luxury
+
+                        <i class="fa-solid fa-expand"></i>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 gallery-item reveal"
+                 data-gallery="smart">
+
+
+                <div class="gallery-card">
+
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=85"
+                         alt="Modern Watch"
+                         data-gallery-image
+                         data-gallery-title="Modern Smart Timepiece">
+
+
+                    <div class="gallery-overlay">
+
+                        Smart
+
+                        <i class="fa-solid fa-expand"></i>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- GALLERY MODAL -->
+
+<div class="modal fade"
+     id="galleryModal"
+     tabindex="-1">
+
+
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+
+
+        <div class="modal-content gallery-modal">
+
+
+            <button type="button"
+                    class="modal-close"
+                    data-bs-dismiss="modal">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+
+            <img id="galleryModalImage"
+                 src=""
+                 alt="Gallery">
+
+
+            <div id="galleryModalTitle"
+                 class="gallery-modal-title">
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- =========================================================
+                         ABOUT US
+========================================================= -->
+
+<section id="about"
+         class="about-section section-anchor">
+
+
+    <div class="container">
+
+
+        <div class="section-heading dark-heading reveal">
+
+            <span>
+                OUR STORY
+            </span>
+
+
+            <h2>
+                About Alberto Watch Company
+            </h2>
+
+
+            <p>
+                A Legacy of Trust &amp; Excellence
+            </p>
+
+        </div>
+
+
+
+        <div class="row g-4 about-top align-items-center">
+
+
+            <div class="col-lg-5 reveal">
+
+
+                <div class="about-image">
+
+
+                    <img src="images/about-us image.png"
+                         alt="Watch Store">
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-lg-7 reveal">
+
+
+                <div class="about-copy">
+
+
+                    <h3>
+                        Our Story
+                    </h3>
+
+
+                    <p>
+                        Alberto Watch Company is a full-service
+                        watch repair, appraisal and retail store
+                        offering a fine selection of luxury timepieces.
+                    </p>
+
+
+                    <p>
+                        We bring together trusted service, elegant
+                        design and carefully selected watch collections
+                        for customers who value craftsmanship,
+                        precision and timeless style.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="row g-4 about-cards">
+
+
+            <div class="col-lg-4 col-md-6 reveal">
+
+
+                <div class="about-info-card">
+
+
+                    <i class="fa-solid fa-bullseye"></i>
+
+
+                    <h3>
+                        Our Mission
+                    </h3>
+
+
+                    <p>
+                        To provide quality watches and
+                        first-class service.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 reveal">
+
+
+                <div class="about-info-card">
+
+
+                    <i class="fa-regular fa-eye"></i>
+
+
+                    <h3>
+                        Our Vision
+                    </h3>
+
+
+                    <p>
+                        To become a trusted destination for
+                        luxury watches and professional watch services.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 reveal">
+
+
+                <div class="about-info-card">
+
+
+                    <i class="fa-solid fa-star"></i>
+
+
+                    <h3>
+                        Our Values
+                    </h3>
+
+
+                    <p>
+                        Authenticity, quality, precision
+                        and customer satisfaction.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                         CONTACT
+========================================================= -->
+
+<section id="contact"
+         class="contact-section section-anchor">
+
+
+    <div class="container">
+
+
+        <div class="section-heading light-heading reveal">
+
+            <span>
+                CONTACT ALBERTO
+            </span>
+
+
+            <h2>
+                Get in Touch
+            </h2>
+
+
+            <p>
+                We're Always Here for You
+            </p>
+
+        </div>
+
+
+
+        <div class="row g-4 align-items-stretch">
+
+
+            <!-- CONTACT INFORMATION -->
+
+            <div class="col-lg-5 reveal">
+
+
+                <div class="contact-information">
+
+
+                    <div class="contact-item">
+
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+
+                        <div>
+
+                            <span>
+                                Address
+                            </span>
+
+
+                            <p>
+                                123 Luxury Street,
+                                Karachi, Pakistan
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="contact-item">
+
+
+                        <i class="fa-solid fa-phone"></i>
+
+
+                        <div>
+
+                            <span>
+                                Phone
+                            </span>
+
+
+                            <p>
+
+                                <a href="tel:+923001234567">
+
+                                    +92 300 1234567
+
+                                </a>
+
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="contact-item">
+
+
+                        <i class="fa-solid fa-envelope"></i>
+
+
+                        <div>
+
+                            <span>
+                                Email
+                            </span>
+
+
+                            <p>
+
+                                <a href="mailto:info@albertowatches.com">
+
+                                    info@albertowatches.com
+
+                                </a>
+
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="contact-item">
+
+
+                        <i class="fa-regular fa-clock"></i>
+
+
+                        <div>
+
+                            <span>
+                                Working Hours
+                            </span>
+
+
+                            <p>
+                                Monday – Saturday
+                                <br>
+                                10:00 AM – 8:00 PM
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <!-- SMALL MAP -->
+
+                    <div class="contact-small-map">
+
+
+                        <img src="images/contact map.png"
+                             alt="Alberto Store Location">
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- CONTACT FORM -->
+
+            <div class="col-lg-7 reveal">
+
+
+                <form class="contact-form"
+                      id="contactForm"
+                      novalidate>
+
+
+                    <div class="row g-3">
+
+
+                        <!-- NAME -->
+
+                        <div class="col-md-6">
+
+
+                            <label for="userName">
+                                Your Name
+                            </label>
+
+
+                            <input id="userName"
+                                   type="text"
+                                   placeholder="Your Name"
+                                   required
+                                   aria-describedby="nameMessage"
+                                   aria-invalid="false">
+
+
+                            <small id="nameMessage"
+                                   class="field-message">
+                            </small>
+
+
+                        </div>
+
+
+
+                        <!-- EMAIL -->
+
+                        <div class="col-md-6">
+
+
+                            <label for="userEmail">
+                                Your Email
+                            </label>
+
+
+                            <input id="userEmail"
+                                   type="email"
+                                   placeholder="Your Email"
+                                   required
+                                   aria-describedby="emailMessage"
+                                   aria-invalid="false">
+
+
+                            <small id="emailMessage"
+                                   class="field-message">
+                            </small>
+
+
+                        </div>
+
+
+
+                        <!-- SUBJECT -->
+
+                        <div class="col-12">
+
+
+                            <label for="subject">
+                                Subject
+                            </label>
+
+
+                            <input id="subject"
+                                   type="text"
+                                   placeholder="Subject"
+                                   required
+                                   aria-describedby="subjectMessage"
+                                   aria-invalid="false">
+
+
+                            <small id="subjectMessage"
+                                   class="field-message">
+                            </small>
+
+
+                        </div>
+
+
+
+                        <!-- MESSAGE -->
+
+                        <div class="col-12">
+
+
+                            <label for="message">
+                                Your Message
+                            </label>
+
+
+                            <textarea id="message"
+                                      rows="6"
+                                      placeholder="Your Message"
+                                      required
+                                      aria-describedby="messageMessage"
+                                      aria-invalid="false"></textarea>
+
+
+                            <small id="messageMessage"
+                                   class="field-message">
+                            </small>
+
+
+                        </div>
+
+
+
+                        <!-- BUTTON -->
+
+                        <div class="col-12">
+
+
+                            <button class="gold-btn form-btn"
+                                    type="submit">
+
+                                Send Message
+
+                            </button>
+
+
+                        </div>
+
+
+
+                        <!-- FORM MESSAGE -->
+
+                        <div class="col-12">
+
+
+                            <p id="formMessage"
+                               class="form-message"
+                               aria-live="polite">
+                            </p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                         SITE MAP
+========================================================= -->
+
+<section id="site-map"
+         class="site-map-section section-anchor">
+
+
+    <div class="container">
+
+
+        <div class="section-heading dark-heading reveal">
+
+            <span>
+                QUICK ACCESS
+            </span>
+
+
+            <h2>
+                Site Map
+            </h2>
+
+
+            <p>
+                Quick Access to All Sections
+            </p>
+
+        </div>
+
+
+
+        <div class="row g-4 site-map-layout">
+
+
+            <div class="col-lg-6 col-md-6 reveal">
+
+
+                <div class="site-map-card">
+
+
+                    <h3>
+                        Main
+                    </h3>
+
+
+                    <a href="#home">
+                        Home
+                    </a>
+
+
+                    <a href="#products">
+                        Products
+                    </a>
+
+                    <div class="site-map-sub-links">
+                        <a href="#products" data-filter-link="vintage">Vintage Watches</a>
+                        <a href="#products" data-filter-link="luxury">Luxury Watches</a>
+                        <a href="#products" data-filter-link="smart">Smart Watches</a>
+                        <a href="#products" data-filter-link="classic">Classic Watches</a>
+                    </div>
+
+
+                    <a href="#price-list">
+                        Price List
+                    </a>
+
+
+                    <a href="#technology">
+                        Technology
+                    </a>
+
+
+                    <a href="#store">
+                        Store Locator
+                    </a>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-lg-5 col-md-6 reveal">
+
+
+                <div class="site-map-card">
+
+
+                    <h3>
+                        Explore
+                    </h3>
+
+
+                    <a href="#gallery">Gallery</a>
+
+                    <a href="#about">About Us</a>
+
+                    <a href="#contact">Contact Us</a>
+
+                    <a href="#price-list" download="alberto-watch-price-list.csv">Downloads</a>
+
+                    <a href="#contact">Feedback</a>
+
+                    <a href="#support">Queries</a>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-lg-1 d-none d-lg-block site-map-watch reveal">
+
+
+                <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=700&q=85"
+                     alt="Alberto luxury watch">
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+                          FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+
+    <div class="container">
+
+
+        <div class="row footer-row">
+
+
+            <!-- BRAND -->
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+
+
+                <div class="footer-brand">
+
+
+                    <div class="footer-crown">
+                        ♛
+                    </div>
+
+
+                    <h2>
+                        ALBERTO
+                    </h2>
+
+
+                    <span>
+                        WATCH COMPANY
+                    </span>
+
+
+                    <p>
+                        Crafting timeless watches with precision,
+                        elegance and innovation.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="col-lg-2 col-md-6 col-sm-6">
+
+
+                <div class="footer-links">
+
+
+                    <h3>
+                        Quick Links
+                    </h3>
+
+
+                    <a href="#home">
+                        Home
+                    </a>
+
+
+                    <a href="#products">
+                        Products
+                    </a>
+
+
+                    <a href="#price-list">
+                        Price List
+                    </a>
+
+
+                    <a href="#technology">
+                        Technology
+                    </a>
+                    <a href="#store">
+                        Store-locator
+                    </a>
+                     <a href="#contact">
+                      Contact us
+                    </a>
+                    <a href="#about">
+                        About us
+                    </a>
+                    <a href="#site-map">
+                        Site map
+                    </a>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- SUPPORT -->
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+
+
+                <div class="footer-links">
+
+
+                    <h3>
+                        Support
+                    </h3>
+
+
+                    <a href="#support">
+                        Customer Support
+                    </a>
+
+
+                    <a href="#support">
+                        Warranty
+                    </a>
+
+
+                    <a href="#support">
+                        Care Guide
+                    </a>
+
+
+                    <a href="#contact">
+                        Contact Us
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- FOLLOW -->
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+
+
+                <div class="footer-links">
+
+
+                    <h3>
+                        Follow Us
+                    </h3>
+
+
+                    <p>
+                        Stay connected with Alberto Watch Company.
+                    </p>
+
+
+                    <div class="social-icons">
+
+
+                        <a href="https://www.facebook.com">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+
+
+                        <a href="https://www.instagram.com">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+
+                        <a href="https://www.twitter.com">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+
+
+                        <a href="https://www.youtube.com">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+
+            <p>
+                © 2026 Alberto Watch Company.
+                All Rights Reserved.
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+
+
+<!-- =========================================================
+                  DATE / TIME / LOCATION
+========================================================= -->
+
+<div class="info-ticker">
+
+
+    <div class="ticker-track">
+
+
+        <span>
+
+            <i class="fa-regular fa-calendar"></i>
+
+            <b>
+                Date:
+            </b>
+
+            <span id="tickerDate">
+                --
+            </span>
+
+        </span>
+
+
+        <span class="ticker-separator">
+            |
+        </span>
+
+
+        <span>
+
+            <i class="fa-regular fa-clock"></i>
+
+            <b>
+                Time:
+            </b>
+
+            <span id="tickerTime">
+                --
+            </span>
+
+        </span>
+
+
+        <span class="ticker-separator">
+            |
+        </span>
+
+
+        <span>
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <b>
+                Location:
+            </b>
+
+            <span id="tickerLocation">
+                Karachi, Pakistan
+            </span>
+
+        </span>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- BOOTSTRAP JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<!-- MAIN JS -->
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
