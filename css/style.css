@@ -2605,6 +2605,9 @@ a {
 
     .nav-right {
         order: 2;
+
+        /* Keep the counter consistently separated from the brand on every mobile width. */
+        margin-left: 12px;
     }
 
     .nav-menu {
@@ -2988,10 +2991,6 @@ a {
 ========================================================= */
 
 @media(max-width:400px) {
-
-    .nav-right {
-        margin-left: 12px;
-    }
 
     .brand-text span {
         font-size: 15px;
