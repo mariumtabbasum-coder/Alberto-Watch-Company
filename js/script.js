@@ -662,6 +662,46 @@ document.addEventListener("DOMContentLoaded", function () {
                         trigger.dataset.infoIcon;
 
 
+                    const media =
+                        document.getElementById(
+                            "cardInfoMedia"
+                        );
+
+
+                    const image =
+                        document.getElementById(
+                            "cardInfoImage"
+                        );
+
+
+                    const imageSource =
+                        trigger.dataset.infoImage;
+
+
+                    media.hidden = !imageSource;
+
+
+                    if (imageSource) {
+
+
+                        image.src = imageSource;
+
+
+                        image.alt = trigger.dataset.infoTitle;
+
+
+                    } else {
+
+
+                        image.removeAttribute("src");
+
+
+                        image.alt = "";
+
+
+                    }
+
+
                     const points =
                         document.getElementById(
                             "cardInfoPoints"

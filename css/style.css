@@ -3769,3 +3769,113 @@ button {
     margin: 0;
 
 }
+
+
+/* Refined corners and image-enabled information modal */
+
+.dropdown-box {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.brand-list {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.brand-name {
+    transition: background .25s ease, color .25s ease;
+}
+
+.brand-name:hover {
+    background: #fbf4e5;
+    color: var(--gold-dark);
+}
+
+.table-wrap {
+    border-radius: 14px;
+    overflow-x: auto;
+}
+
+.store-layout {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.store-search input,
+.store-item,
+.store-icon {
+    border-radius: 10px;
+}
+
+.map-box {
+    border-radius: 0 16px 16px 0;
+}
+
+.contact-information,
+.contact-form {
+    border-radius: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border-radius: 9px;
+}
+
+.contact-small-map,
+.gallery-modal {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.card-info-modal {
+    padding: 0;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.card-info-layout {
+    display: flex;
+    min-height: 330px;
+}
+
+.card-info-media {
+    width: 39%;
+    background: #050505;
+}
+
+.card-info-media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-info-body {
+    flex: 1;
+    padding: 38px 36px 30px;
+}
+
+.card-info-close {
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .map-box {
+        border-radius: 0 0 16px 16px;
+    }
+
+    .card-info-layout {
+        display: block;
+        min-height: 0;
+    }
+
+    .card-info-media {
+        width: 100%;
+        height: 210px;
+    }
+
+    .card-info-body {
+        padding: 30px 24px 25px;
+    }
+}
