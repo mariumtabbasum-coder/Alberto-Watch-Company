@@ -2008,8 +2008,8 @@ button {
 .contact-section {
     background:
         linear-gradient(
-            rgba(6,6,6,.93),
-            rgba(6,6,6,.93)
+            rgba(26, 26, 26, 0.93),
+             rgba(26, 26, 26, 0.93)
         ),
         url('https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1800&q=85')
         center/cover;
@@ -2021,7 +2021,7 @@ button {
 
     padding: 23px;
 
-    background: #101010;
+    background: whitesmoke;
 
     border: 1px solid #292119;
 }
@@ -2035,11 +2035,11 @@ button {
 
     margin-bottom: 15px;
 
-    border-bottom: 1px solid #27231d;
+    border-bottom: 1px solid var(--gold);
 }
 
 .contact-item > i {
-    color: var(--gold-light);
+    color: black;
 
     width: 22px;
 }
@@ -2047,7 +2047,7 @@ button {
 .contact-item span {
     display: block;
 
-    color: var(--gold-light);
+    color: black;
 
     font-family: "Cinzel", serif;
 
@@ -2060,7 +2060,7 @@ button {
 .contact-item a {
     margin: 0;
 
-    color: #aaa;
+    color: rgb(28, 28, 28);
 
     font-size: 9px;
 }
@@ -2068,7 +2068,7 @@ button {
 .contact-form label {
     display: block;
 
-    color: var(--gold-light);
+    color: black;
 
     font-size: 9px;
 
@@ -2081,11 +2081,11 @@ button {
 
     padding: 9px 10px;
 
-    border: 1px solid #332a1d;
+    border: 1px solid var(--gold);
 
-    background: #090909;
+    background: whitesmoke;
 
-    color: #fff;
+    color:  rgb(28, 28, 28);
 
     outline: none;
 
@@ -2140,7 +2140,7 @@ button {
 
     overflow: hidden;
 
-    border: 1px solid #332a1d;
+    border: 1px solid var(--gold);
 }
 
 .contact-small-map img {
