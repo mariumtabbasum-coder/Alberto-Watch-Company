@@ -3879,3 +3879,164 @@ button {
         padding: 30px 24px 25px;
     }
 }
+
+
+/* Focused polish: technology popup, About and Site Map */
+
+.card-info-media {
+    width: 34%;
+    min-width: 200px;
+    padding: 8px;
+    background: radial-gradient(circle at center, #3a2c14 0, #15110a 48%, #070707 100%);
+}
+
+.card-info-media img {
+    border: 1px solid rgba(227, 182, 79, .28);
+    border-radius: 12px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.about-image {
+    border: 1px solid #e1d4bd;
+    box-shadow: 0 12px 26px rgba(67, 46, 13, .10);
+    transition: transform .4s ease, box-shadow .4s ease, border-color .4s ease;
+}
+
+.about-image img {
+    transition: transform .6s ease;
+}
+
+.about-image:hover {
+    border-color: var(--gold);
+    box-shadow: 0 18px 34px rgba(67, 46, 13, .18);
+    transform: translateY(-5px);
+}
+
+.about-image:hover img {
+    transform: scale(1.055);
+}
+
+.about-info-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+}
+
+.about-info-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 20%;
+    left: 20%;
+    height: 2px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .35s ease;
+}
+
+.about-info-card:hover {
+    border-color: #c99b35;
+    box-shadow: 0 16px 30px rgba(67, 46, 13, .14);
+    transform: translateY(-6px);
+}
+
+.about-info-card:hover::before {
+    transform: scaleX(1);
+}
+
+.about-info-card i {
+    display: inline-flex;
+    width: 46px;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    border-radius: 50%;
+    background: #f8ecd1;
+    transition: background .35s ease, color .35s ease, transform .35s ease;
+}
+
+.about-info-card:hover i {
+    color: #fffaf0;
+    background: var(--gold-dark);
+    transform: rotate(-8deg) scale(1.06);
+}
+
+.site-map-section {
+    background:
+        radial-gradient(circle at 12% 8%, rgba(201, 155, 53, .12), transparent 25%),
+        radial-gradient(circle at 88% 75%, rgba(201, 155, 53, .09), transparent 28%),
+        #f7f3eb;
+}
+
+.site-map-heading::after {
+    content: "";
+    display: block;
+    width: 46px;
+    height: 2px;
+    margin: 16px auto 0;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.site-map-card {
+    border-color: rgba(143, 105, 37, .22);
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(56, 38, 10, .07);
+    transition: transform .4s ease, box-shadow .4s ease, border-color .4s ease;
+}
+
+.site-map-card:hover {
+    border-color: rgba(201, 155, 53, .75);
+    box-shadow: 0 20px 42px rgba(56, 38, 10, .13);
+    transform: translateY(-6px);
+}
+
+.site-map-item {
+    padding: 7px 8px;
+    border-radius: 10px;
+    transition: background .25s ease;
+}
+
+.site-map-item:hover {
+    background: #fbf3e2;
+}
+
+.site-map-title i {
+    display: inline-flex;
+    width: 28px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #f6ead0;
+    transition: background .25s ease, color .25s ease, transform .25s ease;
+}
+
+.site-map-item:hover .site-map-title i {
+    color: #fff;
+    background: var(--gold-dark);
+    transform: scale(1.06);
+}
+
+.site-map-title a {
+    transition: color .25s ease, transform .25s ease;
+}
+
+.site-map-item:hover .site-map-title a {
+    color: var(--gold-dark);
+    transform: translateX(3px);
+}
+
+.site-map-sub-links {
+    margin-left: 42px;
+}
+
+@media (max-width: 767px) {
+    .card-info-media {
+        width: 100%;
+        min-width: 0;
+        height: 190px;
+    }
+}
