@@ -618,6 +618,85 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     /* =====================================================
+                TECHNOLOGY / SUPPORT POPUP
+    ===================================================== */
+
+    const infoPopupTriggers =
+        document.querySelectorAll(
+            ".info-popup-trigger"
+        );
+
+
+    infoPopupTriggers.forEach(
+        function (trigger) {
+
+            trigger.addEventListener(
+                "click",
+                function () {
+
+                    document.getElementById(
+                        "cardInfoType"
+                    ).textContent =
+                        trigger.dataset.infoType;
+
+
+                    document.getElementById(
+                        "cardInfoTitle"
+                    ).textContent =
+                        trigger.dataset.infoTitle;
+
+
+                    document.getElementById(
+                        "cardInfoDescription"
+                    ).textContent =
+                        trigger.dataset.infoDescription;
+
+
+                    const icon =
+                        document.getElementById(
+                            "cardInfoIcon"
+                        );
+
+
+                    icon.className =
+                        trigger.dataset.infoIcon;
+
+
+                    const points =
+                        document.getElementById(
+                            "cardInfoPoints"
+                        );
+
+
+                    points.replaceChildren();
+
+
+                    trigger.dataset.infoPoints
+                        .split("|")
+                        .forEach(
+                            function (point) {
+
+                                const item =
+                                    document.createElement("li");
+
+
+                                item.textContent = point;
+
+
+                                points.appendChild(item);
+
+                            }
+                        );
+
+                }
+            );
+
+        }
+    );
+
+
+
+    /* =====================================================
                        STORE FILTER
     ===================================================== */
 
